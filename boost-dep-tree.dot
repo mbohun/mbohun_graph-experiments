@@ -63,40 +63,47 @@ digraph boost {
 	      fontcolor=black,
 	      fontsize=8];
 
-	edge [color=blue, arrowhead=normal, arrowsize=1];
+	chrono              [ label="libboost_chrono.so.1.51.0" ];
+	context             [ label="libboost_context.so.1.51.0" ];
+	date_time           [ label="libboost_date_time.so.1.51.0" ];
+	filesystem          [ label="libboost_filesystem.so.1.51.0" ];
+	grap                [ label="libboost_graph.so.1.51.0" ];
+	iostreams           [ label="libboost_iostreams.so.1.51.0" ];
+	locale              [ label="libboost_locale.so.1.51.0" ];
+	math_c99            [ label="libboost_math_c99.so.1.51.0" ];
+	math_c99f           [ label="libboost_math_c99f.so.1.51.0" ];
+	math_c99l           [ label="libboost_math_c99l.so.1.51.0" ];
+	math_tr1            [ label="libboost_math_tr1.so.1.51.0" ];
+	math_tr1f           [ label="libboost_math_tr1f.so.1.51.0" ];
+	math_tr1l           [ label="libboost_math_tr1l.so.1.51.0" ];
+	prg_exec_monitor    [ label="libboost_prg_exec_monitor.so.1.51.0" ];
+	program_options     [ label="libboost_program_options.so.1.51.0" ];
+	python              [ label="libboost_python.so.1.51.0" ];
+	random              [ label="libboost_random.so.1.51.0" ];
+	regex               [ label="libboost_regex.so.1.51.0" ];
+	serialization       [ label="libboost_serialization.so.1.51.0" ];
+	signals             [ label="libboost_signals.so.1.51.0" ];
+	system              [ label="libboost_system.so.1.51.0" ];  
+	thread              [ label="libboost_thread.so.1.51.0" ];
+	timer               [ label="libboost_timer.so.1.51.0" ];
+	unit_test_framework [ label="libboost_unit_test_framework.so.1.51.0" ];
+	wave                [ label="libboost_wave.so.1.51.0" ];
+	wserialization      [ label="libboost_wserialization.so.1.51.0" ];
 
-	"context"
-	"program_options"
-	"signals"
-	"regex"
-        "math_tr1l"
-	"graph"               -> "regex"
-	"python"
-	"math_c99l"
-	"system"
-	"serialization"
-	"random"
-	"iostreams"
-	"chrono"              -> "system"
-	"timer"               -> "chrono"
-	"timer"               -> "system"	
-	"thread"              -> "chrono"
-	"thread"              -> "system"	
-	"filesystem"          -> "system"
-	"date_time"
-	"math_tr1f"
-	"math_c99"
-	"prg_exec_monitor"
-	"unit_test_framework"
-	"locale"              -> "thread"
-	"locale"              -> "chrono"
-	"locale"              -> "system"	
-	"math_tr1"
-	"wave"                -> "date_time"
-	"wave"                -> "thread"
-	"wave"                -> "chrono"
-	"wave"                -> "filesystem"
-	"wave"                -> "system"	
-	"math_c99f"
-	"wserialization"      -> "serialization"
+	chrono              -> system;
+	filesystem          -> system;
+	grap                -> regex;
+	locale              -> chrono;
+	locale              -> system;	
+	locale              -> thread;
+	thread              -> chrono;
+	thread              -> system;	
+	timer               -> chrono;
+	timer               -> system;	
+	wave                -> chrono;
+	wave                -> date_time;
+	wave                -> filesystem;
+	wave                -> system;
+	wave                -> thread;
+	wserialization      -> serialization;
 }
