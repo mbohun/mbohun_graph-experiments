@@ -51,6 +51,10 @@ http://users.on.net/~mbohun/src/boost-dep-tree.dot.svg
 */
 
 digraph boost {
+	label="boost_1_51_0";
+	labelloc="t";
+	labeljust="c";
+
 	rankdir=LR;
 
 	node [shape=box,
@@ -59,14 +63,15 @@ digraph boost {
 	      color=gray80,
 	      fixedsize=true,
 	      height=0.25,
-	      width=2.2,
+	      width=3.0,
+	      fontname="DejaVu Sans Mono",
 	      fontcolor=black,
 	      fontsize=8];
 
-	chrono              [ label="libboost_chrono.so.1.51.0" ];
+	chrono              [ label="libboost_chrono.so.1.51.0",          fillcolor=steelblue, color=steelblue ];
 	context             [ label="libboost_context.so.1.51.0" ];
-	date_time           [ label="libboost_date_time.so.1.51.0" ];
-	filesystem          [ label="libboost_filesystem.so.1.51.0" ];
+	date_time           [ label="libboost_date_time.so.1.51.0",       fillcolor=steelblue, color=steelblue ];
+	filesystem          [ label="libboost_filesystem.so.1.51.0",      fillcolor=steelblue, color=steelblue ];
 	grap                [ label="libboost_graph.so.1.51.0" ];
 	iostreams           [ label="libboost_iostreams.so.1.51.0" ];
 	locale              [ label="libboost_locale.so.1.51.0" ];
@@ -77,15 +82,15 @@ digraph boost {
 	math_tr1f           [ label="libboost_math_tr1f.so.1.51.0" ];
 	math_tr1l           [ label="libboost_math_tr1l.so.1.51.0" ];
 	prg_exec_monitor    [ label="libboost_prg_exec_monitor.so.1.51.0" ];
-	program_options     [ label="libboost_program_options.so.1.51.0" ];
-	python              [ label="libboost_python.so.1.51.0" ];
+	program_options     [ label="libboost_program_options.so.1.51.0", fillcolor=steelblue, color=steelblue ];
+	python              [ label="libboost_python.so.1.51.0",          fillcolor=steelblue, color=steelblue ];
 	random              [ label="libboost_random.so.1.51.0" ];
-	regex               [ label="libboost_regex.so.1.51.0" ];
+	regex               [ label="libboost_regex.so.1.51.0",           fillcolor=steelblue, color=steelblue ];
 	serialization       [ label="libboost_serialization.so.1.51.0" ];
 	signals             [ label="libboost_signals.so.1.51.0" ];
-	system              [ label="libboost_system.so.1.51.0" ];  
-	thread              [ label="libboost_thread.so.1.51.0" ];
-	timer               [ label="libboost_timer.so.1.51.0" ];
+	system              [ label="libboost_system.so.1.51.0",          fillcolor=steelblue, color=steelblue ];  
+	thread              [ label="libboost_thread.so.1.51.0",          fillcolor=steelblue, color=steelblue ];
+	timer               [ label="libboost_timer.so.1.51.0"            fillcolor=steelblue, color=steelblue ];
 	unit_test_framework [ label="libboost_unit_test_framework.so.1.51.0" ];
 	wave                [ label="libboost_wave.so.1.51.0" ];
 	wserialization      [ label="libboost_wserialization.so.1.51.0" ];
