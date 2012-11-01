@@ -17,6 +17,18 @@ graph experiments with Graphviz DOT, LaTeX, PGF/TikZ, SVG, HTML5
 <img src="https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep-tree.dot.svg">
 </img>
 
+<embed src="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg" type="image/svg+xml" >
+</embed> 
+
+<object data="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg" type="image/svg+xml" >
+</object> 
+
+<iframe src="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg">
+</iframe>
+
+<img src="https://http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg">
+</img>
+
 <table>
 	<tr>
 		<td>foo</td><td>bar</td>
