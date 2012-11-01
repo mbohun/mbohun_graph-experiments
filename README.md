@@ -8,4 +8,10 @@ graph experiments with Graphviz DOT, LaTeX, PGF/TikZ, SVG, HTML5
 <embed src="https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep-tree.dot.svg" type="image/svg+xml" >
 </embed> 
 
+<object data="https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep-tree.dot.svg" type="image/svg+xml" >
+</object> 
+
+<iframe src="https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep-tree.dot.svg">
+</iframe>
+
 test
