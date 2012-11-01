@@ -26,7 +26,7 @@ graph experiments with Graphviz DOT, LaTeX, PGF/TikZ, SVG, HTML5
 <iframe src="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg">
 </iframe>
 
-<img src="https://http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg">
+<img src="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg">
 </img>
 
 <table>
