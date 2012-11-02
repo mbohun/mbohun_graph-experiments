@@ -53,26 +53,22 @@ object, nogithub
 <object data="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg" type="image/svg+xml" >
 </object> 
 
+<table>
+	<tr>
+	<td>
 iframe, nogithub
 
 <iframe src="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg">
 </iframe>
-
+	</td>
+	</tr>
+	<tr>
+	<td>
 img, nogithub
 
 <img src="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg">
 </img>
-
-<table>
-	<tr>
-		<td>foo</td><td>bar</td>
-	</tr>
-	<tr>
-		<td>foo</td><td>bar</td>
-	</tr>
-	<tr>
-		<td>foo</td><td>bar</td>
+	</td>
 	</tr>
 </table>
 
-test
