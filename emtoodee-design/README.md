@@ -10,8 +10,12 @@
 - java version (java applet, standalone java app, android)
 - native version (C, OpenGL ES, NDK on android)
 - modular (originally written as a benchmark to compare/eval diff alternative implementations)
+- realtime diagnostic (UDP, TCP)
+- full replay/persistance (save/restore state)
+- screenshots, "gameplay" video recording (requires ffmpeg)
 
 ---
+_alternative diagram-s created/generated with graphviz dot_
 ![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/architecture-01.dot.png "first version created/generated with graphviz DOT")
 
 ![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/architecture-01-sink.dot.png "fixed/alternative layout")
