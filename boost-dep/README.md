@@ -43,9 +43,9 @@ martin@yobbo:/usr/local/boost_1_51_0/lib$ find -P ./ -type f -name "*.so*" | xar
 ./libboost_wserialization.so.1.51.0
         libboost_serialization.so.1.51.0
 ```
-
-![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep/boost-dep-tree-00.dot.png "first basic version")
-
-![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep/boost-dep-tree-01.dot.png "first basic version")
-
-![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep/boost-dep-tree-02.dot.png "first basic version")
+---
+![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep/boost-dep-tree-00.dot.png "00 - first basic version")
+---
+![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep/boost-dep-tree-01.dot.png "01")
+---
+![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep/boost-dep-tree-02.dot.png "02")
