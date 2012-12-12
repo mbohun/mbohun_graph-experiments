@@ -8,3 +8,5 @@ This was an experiment/test of how to get a SVG/SVGZ image displayed inline on g
 ```
 
 <img src="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg"></img>
+
+<img src="http://users.on.net/~mbohun/src/boost-dep-tree.dot.svgz"></img>
