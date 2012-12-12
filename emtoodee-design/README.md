@@ -10,9 +10,11 @@
 - java version (java applet, standalone java app, android)
 - native version (C, OpenGL ES, NDK on android)
 - modular (originally written as a benchmark to compare/eval diff alternative implementations)
-- realtime diagnostic (UDP, TCP)
+- realtime diagnostic (over UDP, TCP)
 - full replay/persistance (save/restore state)
 - screenshots, "gameplay" video recording (requires ffmpeg)
+- support for 3rd party [map editor](http://www.mapeditor.org)
+- written to be extended/customized
 
 ---
 _alternative diagram-s created/generated with graphviz dot_
