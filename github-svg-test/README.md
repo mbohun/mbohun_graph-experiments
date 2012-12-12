@@ -15,8 +15,7 @@ This was an experiment/test of how to get a SVG/SVGZ image displayed inline on g
 
 ---
 NOTE:
-If firefox, google-chrome fails to display .svgz file-s, add this to your `.htaccess` file on the server; opera works fine.
-
+If firefox, google-chrome (opera works fine) fails to display .svgz file-s, add this to your `.htaccess` file on the server:
 ```
 AddType image/svg+xml svg svgz
 AddEncoding gzip svgz
