@@ -1,7 +1,7 @@
 # emtoodee M (em) inimalist 2 (too) D (dee) java engine
 ![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/screenshots/mb-e2d-00_shadowsoft.png "screenshot")![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/screenshots/mb-e2d-01_shadowsoft.png "screenshot")
 
-[](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/animation_walker_demo.gif)[demo](http://users.on.net/~mbohun)
+![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/animation_walker_demo.gif "walking")[demo](http://users.on.net/~mbohun)
 ---
 
 ![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/engine-architecture.png "first version created in dia")
