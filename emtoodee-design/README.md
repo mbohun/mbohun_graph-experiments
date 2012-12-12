@@ -1,6 +1,6 @@
 # emtoodee M (em) inimalist (too) 2 (dee) D java engine
-![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/screenshots/screenshots/mb-e2d-00_shadowsoft.png "screenshot")
-![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/screenshots/screenshots/mb-e2d-01_shadowsoft.png "screenshot")
+![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/screenshots/mb-e2d-00_shadowsoft.png "screenshot")
+![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/screenshots/mb-e2d-01_shadowsoft.png "screenshot")
 
 # -> [live demo](http://users.on.net/~mbohun)
 
