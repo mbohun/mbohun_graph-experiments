@@ -9,8 +9,7 @@
 ## features
 - java version (java applet, standalone java app, android)
 - native version (C, OpenGL ES, NDK on android)
-- modular (originally written as a benchmark to compare diff alternative implementations)
-- 
+- modular (originally written as a benchmark to compare/eval diff alternative implementations)
 
 ---
 ![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/architecture-01.dot.png "first version created/generated with graphviz DOT")
