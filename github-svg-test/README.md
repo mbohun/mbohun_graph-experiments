@@ -2,11 +2,22 @@
 This was an experiment/test of how to get a SVG/SVGZ image displayed inline on github.
 
 # conclusion/result
-(as of December 2012) the only way is to use the `<img>` tag with the `src` attribute set to a SVG file hosted NOT at github:
+(as of December 2012) the only way is to use the `<img>` tag with the `src` attribute set to a SVG/SVGZ file-s hosted NOT at github:
 ```
 <img src="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg"></img>
 ```
-
 <img src="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg"></img>
 
+```
 <img src="http://users.on.net/~mbohun/src/boost-dep-tree.dot.svgz"></img>
+```
+<img src="http://users.on.net/~mbohun/src/boost-dep-tree.dot.svgz"></img>
+
+---
+NOTE:
+If firefox, google-chrome fails to display .svgz file-s, add this to your `.htaccess` file on the server; opera works fine.
+
+```
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
+```
