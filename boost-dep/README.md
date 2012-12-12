@@ -44,5 +44,5 @@ martin@yobbo:/usr/local/boost_1_51_0/lib$ find -P ./ -type f -name "*.so*" | xar
         libboost_serialization.so.1.51.0
 ```
 
-(https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep/boost-dep-tree-00.dot.png)
+!(https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep/boost-dep-tree-00.dot.png)
 
