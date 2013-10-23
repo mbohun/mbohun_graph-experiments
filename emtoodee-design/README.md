@@ -23,3 +23,5 @@ _alternative diagram-s created/generated with graphviz dot_
 ![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/architecture-01.dot.png "first version created/generated with graphviz DOT")
 
 ![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/architecture-01-sink.dot.png "fixed/alternative layout")
+
+![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/emtoodee-design/architecture-02-sink.dot.png "fixed/alternative layout")
