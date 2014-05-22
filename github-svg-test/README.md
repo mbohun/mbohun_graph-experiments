@@ -8,6 +8,12 @@ This was an experiment/test of how to get SVG/SVGZ images displayed inline on gi
 ```
 <img src="http://users.on.net/~mbohun/src/architecture-01-sink.dot.svg"></img>
 
+or using amazon's s3:
+```
+<img src="https://s3.amazonaws.com/mbohun-public/architecture-01-sink.dot.svg"></img>
+```
+<img src="https://s3.amazonaws.com/mbohun-public/architecture-01-sink.dot.svg"></img>
+
 ```
 <img src="http://users.on.net/~mbohun/src/boost-dep-tree.dot.svgz"></img>
 ```
