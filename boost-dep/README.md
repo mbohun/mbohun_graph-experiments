@@ -50,4 +50,4 @@ martin@yobbo:/usr/local/boost_1_51_0/lib$ find -P ./ -type f -name "*.so*" | xar
 ---
 ![Alt text](https://raw.github.com/mbohun/mbohun_graph-experiments/master/boost-dep/boost-dep-tree-02.dot.png "02")
 ---
-<img src="boost-dep-tree-02.dot.svg"></img>
+![Alt text](boost-dep-tree-02.dot.svg "02 - svg")
