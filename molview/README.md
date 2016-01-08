@@ -14,4 +14,4 @@
 <img style="width: 500px; height: 300px;" src="http://embed.molview.org/v1/?mode=balls&cid=91620582"></img>
 ```
 
-<img style="width: 500px; height: 300px;" src="http://embed.molview.org/v1/?mode=balls&cid=91620582"></img>
+<img src="http://embed.molview.org/v1/?mode=balls&cid=91620582"></img>
